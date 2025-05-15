@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
             fetchCastDetails();
 
             // Set default embed URL
-            switchEmbed('https://vidsrc.xyz/embed/' + getParameterByName('id'));
+            switchEmbed('https://embed.7xtream.com/4k/' + getParameterByName('id'));
         })
         .catch(error => console.error('Error fetching movie details:', error));
 
